@@ -1,5 +1,6 @@
 import React from 'react';
 import { usePage } from '@/components/page';
+import Animate from '@/components/animate';
 import Progress from './progress';
 
 const styles = require('./index.module.less');
@@ -15,6 +16,9 @@ const Home = () => {
       <section>
         <Progress />
       </section>
+      <Animate play start={{ opacity: 0 }} end={{ opacity: 1 }} duration={1}>
+        <h1>React simple animate</h1>
+      </Animate>
     </div>
   );
 };
