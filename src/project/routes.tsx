@@ -16,6 +16,12 @@ export const routeMapping: IRoute[] = [
     breadcrumb: 'home 22',
     icon: <TagsOutlined />,
   },
+  {
+    path: '/svg',
+    name: 'Svg',
+    breadcrumb: 'svg ',
+    icon: <TagsOutlined />,
+  },
 ];
 
 export const projectName = 'Animation';
